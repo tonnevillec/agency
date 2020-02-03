@@ -1,0 +1,23 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Agency{% endblock %}
+
+{% block body %}
+    <div class="jumbotron">
+        <div class="container text-center mt-2">
+            <h1>Agency</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci dolores ducimus earum enim ex excepturi exercitationem iste itaque, natus nemo, nihil non odio optio quas quis, reiciendis totam unde veritatis?</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <h2>Derniers biens</h2>
+        <div class="row flex">
+            {% for property in properties %}
+                <div class="col-4">
+                    {{ include('property/_cardproperty.html.twig', {'property': property}) }}
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+{% endblock %}
