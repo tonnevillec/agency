@@ -50,6 +50,9 @@
     </expand>
     <select />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
@@ -178,6 +181,7 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1WzI2PQiUJFyJG6xC0QnRj69WE8" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -194,9 +198,9 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\www\lanfear\agency\public\images" />
       <recent name="E:\www\lanfear\agency\templates\admin" />
       <recent name="E:\www\lanfear\agency\src\Controller\Admin" />
+      <recent name="E:\www\lanfear\agency\public\images" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -214,6 +218,7 @@
       <workItem from="1580572833025" duration="16108000" />
       <workItem from="1580639171341" duration="19000" />
       <workItem from="1580639196805" duration="18825000" />
+      <workItem from="1580920975676" duration="6094000" />
     </task>
     <servers />
   </component>
@@ -233,10 +238,14 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="474" y="429" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.2560.1400/2560.-480.1080.1880@0.0.2560.1400" timestamp="1580639185577" />
-    <state x="508" y="459" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1580655328741">
+    <state x="374" y="205" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1580922187564">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="508" y="459" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.2560.1400/2560.-480.1080.1880@0.0.2560.1400" timestamp="1580655328741" />
+    <state x="374" y="205" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.2560.1400/2560.-480.1080.1880@0.0.2560.1400" timestamp="1580922187564" />
+    <state x="508" y="459" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1580924938287">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="508" y="459" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.2560.1400/2560.-480.1080.1880@0.0.2560.1400" timestamp="1580924938287" />
     <state x="1060" y="455" key="FileChooserDialogImpl" timestamp="1580568850499">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>

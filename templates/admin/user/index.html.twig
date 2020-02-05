@@ -1,0 +1,57 @@
+{% extends 'admin/index.html.twig' %}
+
+{% block title %}ADMIN : Tous les biens{% endblock %}
+
+{% block body_content %}
+    <h3>Utilisateurs</h3>
+
+    {% for message in app.flashes('success') %}
+        <div class="alert alert-success">
+            {{ message }}
+        </div>
+    {% endfor %}
+
+    <table class="table">
+        <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Username</th>
+            <th scope="col">Email</th>
+            <th scope="col">Firstname</th>
+            <th scope="col">Lastname</th>
+            <th scope="col">City</th>
+            <th scope="col">Phone</th>
+            <th></th>
+        </tr>
+        </thead>
+        <tbody>
+        {% for user in users %}
+            <tr>
+                <th scope="row">{{ user.id }}</th>
+                <td>{{ user.username }}</td>
+                <td>{{ user.email }}</td>
+                <td>{{ user.firstname }}</td>
+                <td>{{ user.lastname }}</td>
+                <td>{{ user.city }} ({{ user.postalCode }})</td>
+                <td>{{ user.phone }}</td>
+                <td>
+                    <a href="{{ path('admin.user.edit', {'id': user.id}) }}" class="btn btn-secondary">Editer</a>
+
+{#                    <form action="{{ path('admin.property.delete', {'id': property.id}) }}"#}
+{#                          method="post"#}
+{#                          onsubmit="return confirm('Etes vous sur ?')"#}
+{#                          style="display: inline-block">#}
+{#                        <input type="hidden" name="_method" value="DELETE">#}
+{#                        <input type="hidden" name="_token" value="{{ csrf_token('delete' ~ property.id) }}">#}
+{#                        <button class="btn btn-danger">Supprimer</button>#}
+{#                    </form>#}
+                </td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+
+{#    <div class="text-right">#}
+{#        <a href="{{ path('admin.property.new') }}" class="btn btn-primary">Nouveau bien</a>#}
+{#    </div>#}
+{% endblock %}
